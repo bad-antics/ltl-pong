@@ -1,0 +1,15 @@
+// ltl-pong/main.ltl
+//
+// Terminal Pong with paddle-AI difficulty levels.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pong v0.1.0")
+    io::println("Terminal Pong with paddle-AI difficulty levels.")
+    0
+}

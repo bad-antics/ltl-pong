@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_pong
+
+import std::io
+use ltl_pong as lib
+
+fn main() {
+    io::println("ltl_pong demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
